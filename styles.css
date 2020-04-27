@@ -1,0 +1,211 @@
+.top_container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+  line-height: 2;  /* The line-height property sets the amount of space used for lines, such as in text.
+                  On block-level elements, it specifies the minimum height of line boxes within the element. Here, the line-height has been changed to double of its original(1).
+                  The preferred way to specify the line height is to give a single value without any units. */
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  /* Centers the content of every block and inline-block element of the body, but not the element itself.
+                     But it won't work for block elements having user-defined widths and inline elements.
+                    For that, we need to set their margin to auto, which centers the element either from the top or from the bottom depending upon which value you specify. */
+  font-family: 'Merriweather', serif;   /* The browser first renders the merriweather font, and somehow if it isn't able to render it, it renders the default serif font then. */
+  color: #40514E;
+}
+
+.pro {
+  text-decoration: underline;
+  /* The CSS statement for underlining the text. But use font-style for the real one styling of italic and underline, and font-weight for boldness. */
+}
+
+#bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+#top-cloud {
+  position: absolute;
+  top: 80px;
+  right: 300px;
+}
+h1
+{
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;    /* Changes the size of the text.; rem is only available in CSS3. */
+  margin-top: 50px auto 0 auto;
+  color: #66BFBF;  /* Changes the color of the text/content. */
+
+}
+h2
+{
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+h3
+{
+  font-family: 'Mukta Mahee', sans-serif;
+  color: #11999E;
+}
+hr
+{
+  border-style: dotted none none;
+  border-width: 10px;
+  height: 0;
+  width: 10%;
+  margin: 100px auto;
+  border-color: #EAF7F7;
+}
+.skill_img1
+{
+  border-style: solid;
+  border-color: cyan;
+  border-radius: 100%;
+  width: 8rem;
+  float: left;   /* floats the image to the left of its parent element(the 'skill-row' div), allowing texts and inline elements within the div to wrap around it.
+                The element is removed from the normal flow of the page, though still remaining a part of the flow (in contrast to absolute positioning).
+                Don't forget to check the 'clear' property which quite functions as the counter of 'float'. */
+  margin-right: 30px;
+}
+.skill_img2
+{
+  border-style: solid;
+  border-color: cyan;
+  border-radius: 100%;
+  width: 8rem;
+  float: right;
+  margin-left: 30px;
+}
+.email
+{
+   color: #40514E;
+}
+.email:hover
+{
+  color: darkgray;
+}
+p
+{
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+  line-height: 2;
+}
+#program
+{
+  font-size: 2.5rem;
+  font-weight: normal;  /* Changes the weight/boldness of the text. */
+  color: #66BFBF;
+}
+a
+{
+  color: #11999E;
+  text-decoration: none;
+}
+a:hover
+{
+  color: #EAF6F6;
+}
+.skill-row
+{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.skltxt
+{
+  width: 80%;  /* Sets the width to 80% of its parent element, i.e. the skill-row div. */
+}
+.sklh
+{
+  width: 80%;
+}
+#new
+{
+  color: #40514E;
+}
+.bottom_container
+{
+  background-color: #66BFBF;
+  height: 100px;
+  padding: 30px;
+  padding-bottom: 0;
+}
+.footer-link
+{
+  color: #11999E;
+}
+#copyr
+{
+  color: #EAF6F6;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding-top: 10px;
+}
+#contact
+{
+  font-size: 1rem;
+  font-weight: bold;
+  display: inline-block;
+  width: 40%;
+}
+.middle_container
+{
+  margin: 100px 0 50px 0;
+}
+#new
+{
+  width: 40%;
+  display: inline-block;  /* If you use 'margin: auto;', then you won't have to change its display type, bcz auto will automatically align its margin to the center. */
+}
+#box
+{
+  margin: 20px auto 30px auto;
+  display: block;
+  text-align: center;
+  border-radius: 8px;
+  color: white;
+  font-size: 40;
+  font-family: Arial;
+  font-weight: 100;
+  padding: 10px;
+  background-color: #66BFBF;
+  text-decoration: none;
+  border-style: solid;
+  border-color: #EAF6F6;
+  border-width: 2px;
+  width: 10%;
+  height: 10px;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+#box:hover
+{
+  margin: 20px auto 30px auto;
+  display: block;
+  text-align: center;
+  border-radius: 8px;
+  color: gray;
+  font-size: 40;
+  font-family: Arial;
+  font-weight: 100;
+  padding: 10px;
+  background-color: #30e3cb;
+  text-decoration: none;
+  border-style: solid;
+  border-color: #EAF6F6;
+  border-width: 2px;
+  width: 12%;
+  height: 10px;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+.footer-link
+{
+  font-size: 1rem;
+}
